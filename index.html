@@ -217,8 +217,8 @@
             }
             else if (state === 'EXPLODE') {
                 titleMesh.visible = false; starMesh.visible = false;
-                rotationGroup.rotation.y += (handX - 0.5) * 0.05;
-                rotationGroup.rotation.x += (handY - 0.5) * 0.07;
+                rotationGroup.rotation.y += (handX - 0.5) * 0.09;
+                rotationGroup.rotation.x += (handY - 0.5) * 0.1;
 
                 const radius = CONFIG.photoSphereRadius;
                 let maxZ = -999;
@@ -290,4 +290,5 @@
         }
     </script>
 </body>
+
 </html>
